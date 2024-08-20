@@ -943,7 +943,7 @@ cursor: pointer;
 }
 .info-wrap{
 	
-	width: 390px;
+	width: 320px;
 	background-size: cover;
 	height: fit-content;
 	background-position: center;
@@ -951,8 +951,8 @@ cursor: pointer;
 	border-radius: 30px 30px 30px 30px;
 	font-size: 0.6em;
 	position: relative;
-	left: -220px;
-	right: 10px;
+	left: -50px;
+	/* right: 10px;
 }
 }
 @media (min-width:1700px){
