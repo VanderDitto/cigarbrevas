@@ -34,7 +34,7 @@
     .logos{
         display:inline-flexbox;
         position:fixed;
-        font-size:6vw;
+        font-size:3em;
             float:left;
             z-index: -2;color: white; 
             padding-left: 1.2em;
@@ -278,23 +278,18 @@ padding: 15px 5px 5px 5px;
 estilos effects
 */
 
-.letter-container{
-	border-bottom: 1px dashed rgba(0,0,0,0.4);
-	border-top: 1px dashed rgba(0,0,0,0.4);
-	margin: 20px;
-	padding: 0px 10px;
-	text-align: center;
-	font-family: 'poiret-oneO', Arial, sans-serif;
+.letter-container{    
+    
+    text-align: center;
     position: relative;
-    right: 5em;
-    font-weight: 900;
-    display: block;
-    top:3.5em;
+    /* height: 100px; */
+    /* width: 70vw; */
+    display: inline-block;
+    left: 1em;
+    top: 3em;
 
 }
-.letter-container h2::after{
-    content:👈;
-}
+
 
 .letter-container h2 {
 
@@ -531,6 +526,19 @@ letter-spacing: 1.3px;
 
 }
 
+@media (max-width:666px){
+    .logos {
+        display: inline-flexbox;
+        position: fixed;
+        font-size: 2em;
+        float: left;
+        z-index: -2;
+        color: white;
+        padding-left: 1.2em;
+    }
+}
+
+
 @media (max-width:750px){
     .box-wrapper{
 
@@ -555,6 +563,26 @@ z-index: 2;
 
 
 @media (max-width:363px){
+    .letter-container {
+        text-align: center;
+        position: relative;
+        /* height: 100px; */
+        /* width: 70vw; */
+        display: inline-block;
+        left: -5em;
+        top: 3em;
+    }
+    .logos {
+        display: inline-flexbox;
+        position: fixed;
+        font-size: 2em;
+        float: left;
+        top:1em;
+        z-index: -2;
+        color: white;
+        /* padding-left: 1.2em; */
+    }
+
 .info-wrap {
     background-image: url(../images/cigar_base_bitolario.jpg);
     width: auto;
@@ -567,6 +595,27 @@ z-index: 2;
 }
 }
 @media (max-width:433px){
+
+    .letter-container {
+        text-align: center;
+        position: relative;
+        /* height: 100px; */
+        /* width: 70vw; */
+        display: inline-block;
+        left: -5em;
+        top: 3em;
+    }
+    .logos {
+        display: inline-flexbox;
+        position: fixed;
+        font-size: 2em;
+        float: left;
+        top:1em;
+        z-index: -2;
+        color: white;
+        /* padding-left: 1.2em; */
+    }
+
     .info-wrap {
         background-image: url(../images/cigar_base_bitolario.jpg);
         width: auto;

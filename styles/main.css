@@ -143,14 +143,14 @@ border-image: url("../images/patter.png") 5 0 0 0 repeat repeat;
     .item4{
 
     position: absolute;
-    left: 430px;
+    left: 130px;
     right: 77px;
     top: 144px;
 
     }
     .item5{
     position: absolute;
-    left:330px;
+    left:30px;
     right: 77px;
     top:44px
     }
