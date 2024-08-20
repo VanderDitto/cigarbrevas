@@ -872,6 +872,7 @@ cursor: pointer;
 /* Mobile-first media queries */
 @media screen and (min-width: 65em) {
 	.item__details {
+
 		position: absolute;
 		top: -0em;
 		margin: 0 0 0 1em;
@@ -880,8 +881,10 @@ cursor: pointer;
         width: 100%;
         background:#a1ad10;
 		-webkit-box-shadow: 5px 6px 33px -18px rgba(0,0,0,1);
--moz-box-shadow: 5px 6px 33px -18px rgba(0,0,0,1);
-box-shadow: 5px 6px 33px -18px rgba(0,0,0,1);
+		-moz-box-shadow: 5px 6px 33px -18px rgba(0,0,0,1);
+		box-shadow: 5px 6px 33px -18px rgba(0,0,0,1);
+		right: 3em;
+        left: 19em;
 	}
 }
 
@@ -934,7 +937,9 @@ box-shadow: 5px 6px 33px -18px rgba(0,0,0,1);
     width: 23vh;
 }
 .icon-llamada li a{
-    font-size: 0.5em;
+    margin: 0.5em 0.2em;
+    font-size: 2em;
+    width: 245px;
 }
 .info-wrap{
 	

@@ -9,8 +9,9 @@
 
     overflow: hidden;
     position: relative;
-    overflow-y: scroll;
+    overflow: auto;
 
+    overflow-x: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     }
@@ -33,7 +34,7 @@
     .logos{
         display:inline-flexbox;
         position:fixed;
-        font-size:3.7vw;
+        font-size:6vw;
             float:left;
             z-index: -2;color: white; 
             padding-left: 1.2em;
@@ -57,7 +58,7 @@
         z-index: 99999;
         color: #e7cd0a;
         background-color:#0a55000a;
-        font-size: 1.7em;
+        font-size: 1.9em;
     
     }
 
@@ -288,10 +289,14 @@ estilos effects
     right: 5em;
     font-weight: 900;
     display: block;
-    top:1.5em;
+    top:3.5em;
 
 }
-.letter-container h2{
+.letter-container h2::after{
+    content:👈;
+}
+
+.letter-container h2 {
 
 	text-align: center;
 	position: relative;
@@ -299,7 +304,9 @@ estilos effects
 	width: 70vw;
 	display: inline-block;
 }
-
+.letter-container h2 a::before{
+    content:👈;
+}
 
 .letter-container h2 a{
 
@@ -406,7 +413,7 @@ estilos font effects
 }
 
 .font_registrada {
-    
+
     text-decoration: underline;
     letter-spacing: 1.3px;
     font-size: large;
@@ -523,11 +530,15 @@ font-size: 2.5em;
 letter-spacing: 1.3px;
 
 }
+
 @media (max-width:750px){
     .box-wrapper{
 
 grid-template-columns: 1fr;
-    
+grid-template-columns: 1fr;
+right: 5.7em;
+position: relative;
+z-index: 2;
 }
 .letter-container h2 a{
     width: 0px;
@@ -535,6 +546,13 @@ grid-template-columns: 1fr;
 }
 
 }
+@media (max-width:984px){
+    .letter-container h2 a{
+        width: 0px;
+        font-size: 0.4em;
+    }
+}
+
 
 @media (max-width:363px){
 .info-wrap {
