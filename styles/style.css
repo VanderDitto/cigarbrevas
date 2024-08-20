@@ -79,15 +79,13 @@
 
     .humochan{
 
-        background-image: url("../images/humo.png");
-        width:400px ;
+        background-image: url(../images/humo.png);
+        width: 180px;
         background-repeat: none;
-        position:absolute;
+        position: absolute;
         height: 156px;
         right: 1px;
-    
-        
-        top:3em;
+        top: 1em
     
     }
     .hojasdeTabaco{
@@ -408,10 +406,11 @@ estilos font effects
 }
 
 .font_registrada {
+    
     text-decoration: underline;
     letter-spacing: 1.3px;
     font-size: large;
-    margin-left: 2vh;
+    margin-left: 1vh;
     font-weight: bold;
     
     width: 100%;
@@ -563,7 +562,7 @@ grid-template-columns: 1fr;
     .item img {
         width: 50vw;
         position: relative;
-        right: 55px;
+        right: 5px;
     }
     }
     @media (max-width:1026px){
