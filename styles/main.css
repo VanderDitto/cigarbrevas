@@ -931,7 +931,15 @@ cursor: pointer;
 		transform: translate3d(0, 40vh, 0);
 	}
 }
-
+.basecigar{
+	position: absolute;
+	width: 160px;
+	height: 88px;
+	display: inline-flex;
+	right: -67px;
+	opacity: 0.8;
+	bottom: 0.2em;
+}
 @media screen and (max-width:467px) {
 .item img {
     width: 23vh;
@@ -954,6 +962,7 @@ cursor: pointer;
 	left: -50px;
 	/* right: 10px;
 }
+
 }
 @media (min-width:1700px){
 	.info-wrap{
