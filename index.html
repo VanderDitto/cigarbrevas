@@ -25,12 +25,15 @@
     <script src="scritps/flickity.pkgd.min.js"></script>
     <script src="scritps/smoothscroll.js"></script>
     <script src="scritps/main.js"></script>
+    <script src="scritps/aos.js"></script>
 
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel = "stylesheet" href="styles/flickity.css"/>
     <link rel = "stylesheet" href="styles/main.css"/>
     <link rel = "stylesheet" href="styles/hover-min.css"/>
+    <link rel = "stylesheet" href="styles/aos.css"/>
+
     
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -59,7 +62,7 @@
                 <square70x70logo src="favicon/ms-icon-70x70.png" />
                 <square150x150logo src="favicon/ms-icon-150x150.png" />
                 <square310x310logo src="favicon/ms-icon-310x310.png" />
-                <TileColor><span id = "font_reg" class="font_registrada">Cigarros Brevas &#174</span> <span
+                <TileColor><span id = "font_reg" class="font_registrada" data-aos="fade-left" data-aos-offset="300" data-aos-anchor-placement="top-center">Cigarros Brevas &#174</span> <span
                                     class="font_registrada ">Cigarros Gamos &#174</span>
                     
                 </TileColor>
@@ -90,11 +93,11 @@
                         "images/logopx/Logo770px.png" media = "(min-width:760px)"
                 alt = "Cigarros Brevas logo"/>
             </div>
-            <main class ="logos hvr-bounce-out" id="banner_catch" >Fabricante y  distribuidor de cigarros</main>
+            <main class ="logos hvr-bounce-out" id="banner_catch" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1500" >Fabricante y  distribuidor de cigarros</main>
             
         </h1>
         
-        <div id="letter-container" class="letter-container">
+        <div id="letter-container" class="letter-container" >
             
             <h2 class="letrero">
                 <a href="#">Brevas</a>
@@ -213,9 +216,6 @@ width: 400px;
 </style>
 <script>
 
-
-
-
     document.querySelector("#letter-container").addEventListener("click",function(){
         document.querySelector(".popup").classList.add("active");
         $body.css("color","red");
@@ -230,12 +230,12 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
 </script>
 
     <span class="container_square">
-        <div class="block item1 block__"></div>
-        <div class="block item2 block__"></div>
-        <div class="block item3 block__"></div>
-        <div class="block item4 block__"></div>
-        <div class="block item5 block__"></div>
-        <div class="block item6 block__"></div>
+        <div class="block item1 block__" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" ></div>
+        <div class="block item2 block__" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"></div>
+        <div class="block item3 block__" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"></div>
+        <div class="block item4 block__" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"></div>
+        <div class="block item5 block__" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"></div>
+        <div class="block item6 block__" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600"></div>
     </span>
 
     <nav class="Nav">
@@ -312,7 +312,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
         
 
 		<div class="hero">
-			<div class="hero__back hero__back--static"></div>
+			<div class="hero__back hero__back--static data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in" data-aos-duration="600""></div>
 
 			<div class="hero__back hero__back--mover"></div>
 			<div class="hero__front">
@@ -327,7 +327,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
             <div class="stack">
                 <h2 class="stack-title block__"><a href="#" data-text="Robusto"><span class="hvr-wobble-to-top-right">Robusto</span></a></h2>
                 <div class="item block__">
-                    <div class="item__content block__">
+                    <div class="item__content block__ " data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type1/robustos-caja1.png" alt="cigar breva robusto" />
                         <h3 class="item__title block__">Robusto presentación <span class="item__date block__">caja carton 10 & caja madera 20</span></h3>
                         <div class="item__details block__">
@@ -342,19 +342,19 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content ">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type1/robusto_1.JPG" alt="Robusto ceniza." />
                         <h3 class="item__title ">Cigar Brevas Ceniza<span class="item__date">Robusto.</span></h3>
                         <div class="item__details ">
                             <p class="item__paragrah ">
-                             Cigarros elaborados con hojas seleccionadas y maduradas por mas de 4 años y encapados 
-                             con hoja Connecticut.   
+                            Cigarros elaborados con hojas seleccionadas y maduradas por mas de 4 años y encapados 
+                            con hoja Connecticut.   
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content ">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type1/Robusto_2.JPG" alt="Robusto base moldes" />
                         <h3 class="item__title ">Robusto Solo<span class="item__date">Handmade Colombia</span></h3>
                         <div class="item__details ">
@@ -369,7 +369,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content ">
+                    <div class="item__content " data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type1/robusto_plano.JPG" alt="Tres Robustos sobre moldes de cigarros" />
                         <h3 class="item__title ">Robustos en moldes<span class="item__date">Handmade Colombia</span></h3>
                         <div class="item__details ">
@@ -384,7 +384,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content ">
+                    <div class="item__content " data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type1/robusto_varios_cigar.JPG" alt="cigar breva numero 5, panetela , torpedo" />
                         <h3 class="item__title ">Cuatro Vitolas cigar Brevas<span class="item__date ">fondo de picadura Aromado Brevas</span></h3>
                         
@@ -394,7 +394,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
 
                 <div class="item">
                     <!-- pagina pie de pagina -->
-                    <div class="item__content item__content--related">
+                    <div class="item__content item__content--related" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <p>Comparación Vitolas, Cigar Brevas</p>
                     
                     
@@ -411,7 +411,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
             <div class="stack">
                 <h2 class="stack-title"><a href="#" data-text="purito Brevas"><span class="hvr-wobble-to-top-right">purito Brevas</span></a></h2>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="50" data-aos-easing="ease-in" data-aos-duration="400">
                         <img src="img/type3/puritos-caja.png" alt="purito caja por 10" />
                         <h3 class="item__title">Purito Brevas Presentacion <span class="item__date">Handmade Colombia</span></h3>
                         <div class="item__details">
@@ -426,7 +426,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type3/cigar_purito.JPG" alt="solo purito" />
                         <h3 class="item__title"> solo cigar purito<span class="item__date">sobre moldes de cedro</span></h3>
                         <div class="item__details">
@@ -441,7 +441,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type3/purito_cajax10_cigar brevas.jpg" alt="presentacion caja por 10" />
                         <h3 class="item__title">Caja por 10<span class="item__date">sobre moldes de cedro</span></h3>
                         <div class="item__details">
@@ -452,12 +452,12 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                             <p class="item__paragrah">
                                 Cigarros elaborados con hojas seleccionadas y maduradas por mas de 4 años y encapados 
                                 con hoja Connecticut.   
-                               </p>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type3/experiencia_cigar brevas.jpg" alt="cortador cigar brevas" />
                         <h3 class="item__title">Mas de 40 años de experiencia<span class="item__date">experiencia</span></h3>
                         <div class="item__details">
@@ -466,7 +466,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type3/purito.png" alt="purito solo tamaño" />
                         <h3 class="item__title">purito<span class="item__date">tamaño</span></h3>
                         <div class="item__details">
@@ -481,7 +481,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 </div>
                 <div class="item">
                     <!-- pagina pie de pagina -->
-                    <div class="item__content item__content--related">
+                    <div class="item__content item__content--related" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <p>Comparación Vitolas, Cigar Brevas</p>
                         
                             <img id="lapizComparacion" class="media-item__img" src="img/related/vitolario_cigar.png" />
@@ -494,7 +494,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
             <div class="stack">
                 <h2 class="stack-title"><a href="#" data-text="Numero 5"><span class="hvr-wobble-to-top-right">Numero 5</span></a></h2>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" >
                         <img src="img/type2/caja2_numero5.png" alt="numero5 carton caja" />
                         <h3 class="item__title">Numero 5 Presentacion <span class="item__date">de 12 cigar Numero 5</span></h3>
                         <div class="item__details">
@@ -509,7 +509,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" >
                         <img src="img/type2/madera_cortadora.png" alt="cortador con numero 5" />
                         <h3 class="item__title">Numero 5 <span class="item__date">elaborado Handmade</span></h3>
                         <div class="item__details">
@@ -521,7 +521,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" >
                         <img src="img/type2/numero5_cigar.jpg" alt="cigarro vitola numero 5" />
                         <h3 class="item__title">Cigarro vitola numero 5<span class="item__date">sobre moldes de cedro</span></h3>
                         <div class="item__details">
@@ -531,7 +531,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" >
                         <img src="img/type2/numero5.png" alt="numero 5 solo" />
                         <h3 class="item__title">numero 5 <span class="item__date">📏largo:12cm</span></h3>
                         <div class="item__details">
@@ -540,7 +540,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" >
                         <img src="img/type2/vitolario_450px_cigar brevas.jpg" alt="vitolario cigar brevas" />
                         <h3 class="item__title">churchill, purito, torpedo y numero 5<span class="item__date">Vitolario</span></h3>
                         <div class="item__details">
@@ -552,7 +552,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 
                 <div class="item">
                     <!-- pagina pie de pagina -->
-                    <div class="item__content item__content--related">
+                    <div class="item__content item__content--related" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <p>Comparación Vitolas, Cigar Brevas</p>
                         
                             <img id="lapizComparacion" class="media-item__img" src="img/related/vitolario_cigar.png" />
@@ -566,7 +566,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
             <div class="stack">
                 <h2 class="stack-title"><a href="#" data-text="churchill"><span class="hvr-wobble-to-top-right">Churchill</span></a></h2>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" >
                         <img src="img/type5/churchillConCajaDeCarton.png" alt="churchill caja madera y carton" />
                         <h3 class="item__title">Churchill caja madera y carton<span class="item__date">churchill</span></h3>
                         <div class="item__details">
@@ -596,7 +596,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type5/cigar-churchill.JPG" alt="churchill cigar" />
                         <h3 class="item__title">cigar churchill brevas <span class="item__date">churchill</span></h3>
                         <div class="item__details">
@@ -611,7 +611,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type5/5.jpg" alt="churchill sobre moldes" />
                         <h3 class="item__title">Churchill sobre moldes de cedro<span class="item__date">handmade</span></h3>
                         <div class="item__details">
@@ -623,7 +623,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type5/churchill_3.jpg " alt="caja de churchill" />
                         <h3 class="item__title">caja de churchill<span class="item__date">churchill</span></h3>
                         <div class="item__details">
@@ -640,7 +640,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 </div>
                 <div class="item">
                     <!-- pagina pie de pagina -->
-                    <div class="item__content item__content--related">
+                    <div class="item__content item__content--related" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <p>Comparación Vitolas, Cigar Brevas</p>
                         
                             <img id="lapizComparacion" class="media-item__img" src="img/related/vitolario_cigar.png" />
@@ -653,7 +653,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
             <div class="stack"> <!-- mini exquisito -->
                 <h2 class="stack-title"><a href="#" data-text="mini exquisito"><span class="hvr-wobble-to-top-right">mini exquisito</span></a></h2>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type6/caja7.png" alt="minis exquisito brevas" />
                         <h3 class="item__title">mini exquisito brevas<span class="item__date">20 unidades</span></h3>
                         <div class="item__details">
@@ -668,7 +668,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type6/cajaminicerrada.png" alt="caja cerrada breva mini exquisito />
                         <h3 class="item__title">caja de 20 minis <span class="item__date">Bien hecho en Colombia</span></h3>
                         <div class="item__details">
@@ -683,7 +683,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type6/cigars6.png" alt="mini exquisito" />
                         <h3 class="item__title">minisexquisito <span class="item__date">handmade</span></h3>
                         <div class="item__details">
@@ -698,14 +698,14 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type6/miniexquizitos.png" alt="img04" />
                         <h3 class="item__title">miniExquisito <span class="item__date">solo mini</span></h3>
                         
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type6/mini_exquisito_fique.jpg" alt="mini_exquisito sobre fique" />
                         <h3 class="item__title">mini_exquisito sobre Fique <span class="item__date">Mini</span></h3>
                         <div class="item__details">
@@ -722,7 +722,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 </div>
                 <div class="item">
                     <!-- pagina pie de pagina -->
-                    <div class="item__content item__content--related">
+                    <div class="item__content item__content--related" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <p>Comparación Vitolas, Cigar Brevas</p>
                         
                             <img class="media-item__img" src="img/related/vitolario_cigar.png" />
@@ -735,7 +735,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
             <div class="stack"><!-- panetela -->
                 <h2 class="stack-title"><a href="#" data-text="Panetela"><span class="hvr-wobble-to-top-right">Panetela</span></a></h2>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type4/panetela.png" alt="caja panetela por 25 cigars" />
                         <h3 class="item__title">caja panetela 14 panetelas <span class="item__date">handmade colombia</span></h3>
                         <div class="item__details">
@@ -750,7 +750,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="0" data-aos-easing="ease-in" data-aos-duration="100">
                         <img src="img/type4/cajapanetela.png" alt="caja Panetelas 4 unidades" />
                         <h3 class="item__title">Presentación Caja carton Panetela <span class="item__date">4 unidades</span></h3>
                         <div class="item__details">
@@ -762,7 +762,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type4/grupo_De_Panetelas.jpg" alt="panetelas" />
                         <h3 class="item__title">Panetelas <span class="item__date">agrupación</span></h3>
                         <div class="item__details">
@@ -777,7 +777,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type4/panetela-sola.png" alt="panetela sola" />
                         <h3 class="item__title">Panetela unidad <span class="item__date">Unidad</span></h3>
                         <div class="item__details">
@@ -792,10 +792,10 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type4/panetela cigar brevas.jpg" alt="panetela y fique" />
                         <h3 class="item__title">Panetela brevas sobre fique <span class="item__date">Handmade in Colombia</span></h3>
-                        <div class="item__details">
+                        <div class="item__details" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>Panetela Medidas:</span></li>
                                 <li><i class="icon icon-focal_length"></i><span> 📏largo: 13.97 cm</span></li>
@@ -809,7 +809,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 </div>
                 <div class="item">
                     <!-- pagina pie de pagina -->
-                    <div class="item__content item__content--related">
+                    <div class="item__content item__content--related" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <p>Comparación Vitolas, Cigar Brevas</p>
         
                             <img class="media-item__img" src="img/related/vitolario_cigar.png" />
@@ -823,7 +823,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
             <div class="stack">
                 <h2 class="stack-title"><a href="#" data-text="Torpedo"><span class="hvr-wobble-to-top-right">Torpedo</span></a></h2>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type7/torpedo=Caja.png" alt="torpedo caja" />
                         <h3 class="item__title">Caja de cedro para 20 torpedos<span class="item__date">handmade in Colombia</span></h3>
                         <div class="item__details">
@@ -838,7 +838,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                     </div>
                 </div>
                 <div class="item">
-                    <div class="item__content">
+                    <div class="item__content" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="400">
                         <img src="img/type7/torpedo.png" alt="Torpedo Cigar Brevas" />
                         <h3 class="item__title">Torpedo,  <span class="item__date">handmade in Colombia</span></h3>
                         <div class="item__details">
@@ -869,7 +869,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                             <p class="item__paragrah">
                                 Cigarros elaborados con hojas seleccionadas y maduradas por mas de 4 años y encapados 
                                 con hoja Connecticut.   
-                               </p> 
+                            </p> 
                         </div>
                     </div>
                 </div>
@@ -984,6 +984,9 @@ font-size: 0.8em;
 </style>
 <script type="text/javascript">
 
+
+
+
     var screenWidth = window.innerWidth;
     var $logo = $(".ip-header h1 img");
     var $font_Registrada = $("tile");
@@ -1042,6 +1045,11 @@ font-size: 0.8em;
 } );
 
     $(document).ready(function () {
+
+    
+    AOS.init();
+
+
 
         $("#letter-container h2 a").lettering();
         
