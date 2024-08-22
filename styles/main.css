@@ -679,13 +679,12 @@ animation-range: entry 0% cover 40%;
 
 
 .item img:hover {
-	transform: scale(1.4);
+	transform: scale(1.8);
 	transition: 0.7s all;
 	background-color: #0a550096;
 }
 .item img {
-	
-	width:90%;
+	width: 33vh;
 	display: block;
 	position: relative;
 	z-index: 100;
@@ -727,7 +726,7 @@ box-shadow: 13px 2px 14px -16px rgba(0,0,0,1);
     background-color: #9eac10;
 
 	position: relative;
-    
+    right: 44px;
 
 	}
 
@@ -821,19 +820,15 @@ cursor: pointer;
 
 /* comparacion brevas */
 .item__content--related {
-
-	overflow-x: scroll;
-	
+	text-align: center;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex; 
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-webkit-justify-content:center;
-	justify-content:center;
-	margin: 0 auto;
-	justify-self: center;
-	text-align: center;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+    align-items: center;
 	
 }
 
@@ -947,8 +942,7 @@ cursor: pointer;
 }
 @media screen and (max-width:467px) {
 .item img {
-    width: 100%;
-	max-width: 450px;
+    width: 23vh;
 }
 .icon-llamada li a{
     margin: 0.5em 0.2em;
@@ -966,7 +960,7 @@ cursor: pointer;
 	font-size: 0.6em;
 	position: relative;
 	left: -50px;
-	
+	/* right: 10px;
 }
 
 }
@@ -974,10 +968,6 @@ cursor: pointer;
 	.info-wrap{
 		font-size: 1em;
 
-	}
-	.item img {
-		width: 100%;
-		max-width: 950px;
 	}
 
 }

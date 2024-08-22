@@ -80,8 +80,8 @@
 
 #lapizComparacion:hover{
 
-    width: 66%;
-    transform: scale(3.4);
+    width: 100%;
+    transform: scale(1.8);
     transition: 0.7 cubic-bezier();
     scroll-behavior: smooth;
     overflow-x: scroll;
