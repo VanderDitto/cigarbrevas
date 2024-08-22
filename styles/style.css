@@ -77,15 +77,38 @@
     overflow-y: hidden;
     overflow-x: auto;
 }
+.fitwidth{
 
+    width: 450px;
+
+}
+
+.backarrow{
+
+    left: 6em;
+    top: 9em;
+    position: absolute;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: none;
+    width: 132px;
+    height: 42px;
+    background-image: url(../images/svg/back.svg);
+}
+
+.item__{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    border: white solid 9px;
+    max-width: 430px;
+    height: auto;
+    width: 450px;
+}
 #lapizComparacion:hover{
 
-    width: 100%;
-    transform: scale(1.8);
-    transition: 0.7 cubic-bezier();
-    scroll-behavior: smooth;
     overflow-x: scroll;
-    
+    border:#b8bb13 solid 4px;
 }
 
     .humochan{

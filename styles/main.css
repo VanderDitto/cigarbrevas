@@ -81,8 +81,9 @@ button:focus {
 }
 /* Main container */
 .container {
+	
 	position: relative;
-	min-height: 100vh;
+	/*min-height: 100vh;*/
 	height: 100%;
 	overflow: hidden;
 	display: -webkit-flex;
