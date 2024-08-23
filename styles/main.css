@@ -45,11 +45,12 @@ body {
 	color: #fff;
 	font-size: 1em;
 	overflow: hidden;
-	position: relative;
+	margin: 0 auto;
 	overflow-y: scroll;
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	margin: 0 auto;
 }
 
 a {
@@ -79,11 +80,21 @@ button:focus {
     background: transparent url(../images/pattern.png) repeat top left;
     z-index: 2;
 }
+.nameVitolas{
+	position: absolute;
+	display: flex;
+	font-size: 2.6rem;
+	margin: 0 auto;
+	text-align: center;
+	left: 22px;
+	top: 10px;
+
+}
 /* Main container */
 .container {
 	
 	position: relative;
-	/*min-height: 100vh;*/
+	
 	height: 100%;
 	overflow: hidden;
 	display: -webkit-flex;

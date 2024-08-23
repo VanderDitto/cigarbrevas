@@ -18,36 +18,44 @@
     html{
         scroll-behavior: smooth;
     }
-    /*
+    
+    ::-webkit-scrollbar-track-piece{
+        width: 7px;
+    }
+
     ::-webkit-scrollbar{
         width: 7PX;
+        scrollbar-width: thin;
 
     }
+    
     ::-webkit-scrollbar-track{
+        width: 7px;
         background: #ead818;
     }
     ::-webkit-scrollbar-thumb{
 
     background:  #0a5500;
-    background-size: contain;
+    width: 7px;
     border-radius: 10px;
-    }*/
+    }
     .logos{
         display:inline-flexbox;
         position:fixed;
         font-size:3em;
             float:left;
-            z-index: -2;color: white; 
+            z-index: -2;
+            color: white; 
             padding-left: 1.2em;
     }
 .setubicacion{
+
     position: absolute;
     font-size: 0.7em;
     right: 10px;
     width: auto;
     letter-spacing: 1.3px;
 
-    
 }
     #section-wrapper{
         width: 100%;
