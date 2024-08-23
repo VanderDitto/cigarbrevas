@@ -123,6 +123,15 @@ overflow-x: auto;
 /*overflow: hidden;*/
 overscroll-behavior:contain ;
 }
+.content h2{
+	
+}
+.popup-close-btn{
+	background-color: #0a550086;
+}
+.figure-content{
+	border:rgb(204, 175, 32)  8px solid ;
+}
 .media-element>img{
 	border:rgb(233, 197, 20)  4px solid ;
 	
@@ -130,6 +139,7 @@ overscroll-behavior:contain ;
 .media-scroller figcaption{
 	text-align: center;
 	color: rgb(233, 197, 20);
+	cursor: hand;
 }
 .container_square{
     z-index: -333;
