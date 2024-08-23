@@ -102,7 +102,22 @@ border-image: url("../images/patter.png") 5 0 0 0 repeat repeat;
 
 }
 
+.media-scroller{
 
+display:grid;
+grid-auto-flow: column;
+
+gap: 10px;
+overflow-x: auto;
+overscroll-behavior:contain ;
+}
+.media-element>img{
+	border:rgb(233, 197, 20)  4px solid ;
+	
+}
+.media-scroller figcaption{
+	color: rgb(233, 197, 20);
+}
 .container_square{
     z-index: -333;
     }
