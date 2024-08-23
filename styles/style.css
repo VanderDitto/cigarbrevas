@@ -456,6 +456,9 @@ estilos font effects
 
 .font_registrada {
 
+
+    position: relative;
+    left: 5rem;
     text-decoration: underline;
     letter-spacing: 1.3px;
     font-size: large;
