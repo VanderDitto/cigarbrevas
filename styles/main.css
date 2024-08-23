@@ -117,9 +117,10 @@ border-image: url("../images/patter.png") 5 0 0 0 repeat repeat;
 
 display:grid;
 grid-auto-flow: column;
-
+padding: 20px;
 gap: 10px;
 overflow-x: auto;
+overflow: hidden;
 overscroll-behavior:contain ;
 }
 .media-element>img{
