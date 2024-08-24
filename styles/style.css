@@ -123,6 +123,8 @@
 
     overflow-x: scroll;
     border:#b8bb13 solid 4px;
+    scale: (2.2);
+    transition: cubic-bezier() 550ms all;
 }
 
     .humochan{
@@ -456,7 +458,6 @@ estilos font effects
 
 .font_registrada {
 
-
     position: relative;
     left: 1rem;
     text-decoration: underline;
@@ -464,10 +465,9 @@ estilos font effects
     font-size: large;
     margin-left: 1vh;
     font-weight: bold;
-    
     width: 100%;
     font-family: "poiret-oneO";
-    text-shadow: 1px ;
+    text-shadow: 1px;
     text-shadow: 1px 1px rgb(230, 227, 60);
 }
 .logo_tc{

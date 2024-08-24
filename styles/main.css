@@ -38,6 +38,97 @@
 	clear: both;
 }
 
+
+.center{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(50%,50%);
+}
+.center button{
+	padding: 10px 20px;
+	border:1px solid #fff;
+	background: transparent;
+	font-size: 16px;
+	cursor:pointer;
+}
+.figure-content{
+position: relative;
+display: inline;
+width: 400px;
+
+}.figure-content img{
+width: 400px;
+height: auto;
+}
+.popup{
+position: fixed;
+top:50%;
+left:0px;
+width:0%;
+height:0%;
+transform: translateY(-50%);
+overflow: hidden;
+z-index: 2;
+
+}
+.popup .content{
+background-color: rgb(233, 233, 233);
+opacity:0;
+padding: 30px 20px;
+width: 100%;
+max-width: 550px;
+margin: 0px auto;
+background: #dbc00f;
+font-size: 19px;
+
+scroll-behavior: smooth;
+overflow-y: scroll;
+}
+.popup.active{
+animation: animationpop 1500ms ease-in-out forwards;
+
+}
+.popup.active .content{
+opacity: 1;
+transition: all 300ms ease-in-out 1500ms;
+}
+@keyframes animationpop{
+0%{
+	width:0%;
+	height: 0%;
+
+}
+50%{
+	width: 100%;
+	height: 5px;
+
+}
+100%{
+	width:100%;
+	height: 100%;
+
+}
+}
+.popup .content .popup-close-btn{
+position:absolute;
+top:2px;
+
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 35px;
+color:#d68e1b;
+font-size: 55px;
+cursor:pointer;
+border-radius: 50%;
+
+
+}
+.popup .content .popup-close-btn:hover{
+background: #c5c6c3;
+
+}
 /* General styles */
 body {
 	background: linear-gradient(to left, #0a5500, rgb(251 226 26));
@@ -134,7 +225,7 @@ overscroll-behavior:contain ;
 }
 .media-element>img{
 	border:rgb(233, 197, 20)  4px solid ;
-	
+	margin: 0 13px;
 }
 .media-scroller figcaption{
 	text-align: center;
@@ -769,7 +860,7 @@ box-shadow: 13px 2px 14px -16px rgba(0,0,0,1);
     background-color: #9eac10;
 
 	position: relative;
-    right: 44px;
+    right: 4px;
 
 	}
 
@@ -789,8 +880,8 @@ box-shadow: 13px 2px 14px -16px rgba(0,0,0,1);
 	color: #323232;
 	white-space: nowrap;
 	opacity: 0;
-	-webkit-transform: translate3d(0,20px,0);
-	transform: translate3d(0,20px,0);
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
 	transition: transform 0.5s, opacity 0.5s;
 }

@@ -120,112 +120,8 @@
 <div class="center">
 
 </div>
-<style>
-    .center{
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(50%,50%);
-    }
-    .center button{
-        padding: 10px 20px;
-        border:1px solid #fff;
-        background: transparent;
-        font-size: 16px;
-        cursor:pointer;
-}
-.figure-content{
-    position: relative;
-display: inline;
-width: 400px;
-
-}.figure-content img{
-    width: 400px;
-    height: auto;
-}
-.popup{
-    position: fixed;
-    top:50%;
-    left:0px;
-    width:0%;
-    height:0%;
-    transform: translateY(-50%);
-    overflow: hidden;
-    z-index: 2;
-
-}
-.popup .content{
-    background-color: rgb(233, 233, 233);
-    opacity:0;
-    padding: 30px 20px;
-    width: 100%;
-    max-width: 550px;
-    margin: 0px auto;
-    background: #dbc00f;
-    font-size: 19px;
-
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-}
-.popup.active{
-    animation: animationpop 1500ms ease-in-out forwards;
-
-}
-.popup.active .content{
-    opacity: 1;
-    transition: all 300ms ease-in-out 1500ms;
-}
-@keyframes animationpop{
-    0%{
-        width:0%;
-        height: 0%;
-
-    }
-    50%{
-        width: 100%;
-        height: 5px;
-
-    }
-    100%{
-        width:100%;
-        height: 100%;
-
-    }
-}
-.popup .content .popup-close-btn{
-    position:absolute;
-    top:2px;
-    
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 35px;
-    color:#d68e1b;
-    font-size: 55px;
-    cursor:pointer;
-    border-radius: 50%;
 
 
-}
-.popup .content .popup-close-btn:hover{
-    background: #c5c6c3;
-
-}
-</style>
-<script>
-
-    document.querySelector("#letter-container").addEventListener("click",function(){
-        document.querySelector(".popup").classList.add("active");
-        $body.css("color","red");
-    });
-document.querySelector(".popup .popup-close-btn").addEventListener("click",function(){
-        document.querySelector(".popup").classList.remove("active");
-        $body.css("color","white");
-
-    });
-
-
-</script>
 
     <span class="container_square">
         <div class="block item1 block__" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600" ></div>
@@ -276,7 +172,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                         <li>
                             
                                 <i class="fa-solid fa-location-dot hvr-pulse">
-                                <a href="https://www.google.com/maps/place/CIGARROS+BREVAS/@6.9901968,-73.0518582,17z/data=!4m8!1m2!2m1!1scigarros+Brevas!3m4!1s0x8e68471d59ae7b15:0x32959d3d663be068!8m2!3d6.9901968!4d-73.0496695"  target="_blank">|||||</a>
+                                <a href="https://www.google.com/maps/place/CIGARROS+BREVAS/@6.9901968,-73.0518582,17z/data=!4m8!1m2!2m1!1scigarros+Brevas!3m4!1s0x8e68471d59ae7b15:0x32959d3d663be068!8m2!3d6.9901968!4d-73.0496695"  target="_blank">ubicación</a>
                             </i>
                             </a>
                             </li>
@@ -284,7 +180,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                             
                                 <i class="fa-brands fa-square-instagram hvr-pulse">
                                 
-                                    <a href="http:">|||||</a>
+                                    <a href="http:"></a>
                                 </i>
                             </a>
                         </li>
@@ -292,7 +188,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                             
                                 <i class="fa-brands fa-square-whatsapp hvr-pulse">
             
-                                <a href="https://wa.me/0573174044417?text=Hola,%20le%20contacto%20desde%20la%20pagina%20web%20cigarros%20Brevas." target="_blank" class="icon-whatsapp">|||||</a>
+                                <a href="https://wa.me/0573174044417?text=Hola,%20le%20contacto%20desde%20la%20pagina%20web%20cigarros%20Brevas." target="_blank" class="icon-whatsapp">what'sup</a>
                             </i>
                             </a>
                         </li>
@@ -339,8 +235,9 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                             <ul>
                                 <li><i class="icon icon-camera"></i><span> Robusto Cigar Brevas</span></li>
                                 <li><i class="icon icon-focal_length"></i><span> peso 10gr</span></li>
-                                <li><i class="icon icon-aperture"></i><span>   📏Diametro: 1.524 cm</span></li>
-                                <li><i class="icon icon-altura"></i><span> 📏largo: 12.7 cm</span></li>
+                                <li><i class="icon icon-aperture"></i><span>   📏Diametro: 1.52 cm</span></li>
+                                <li><i class="icon icon-altura"></i><span> 📏largo: 12.7cm
+                                </span></li>
 
                             </ul>
                         </div>
@@ -412,7 +309,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
 
             </div>
             <div class="stack">
-                <h2 class="stack-title"><a href="#" data-text="purito Brevas"><span class="hvr-wobble-to-top-right">purito Brevas</span></a></h2>
+                <h2 class="stack-title"><a href="#" data-text="purito Brevas"><span class="hvr-wobble-to-top-right">Purito Brevas</span></a></h2>
                 <div class="item">
                     <div class="item__content">
                         <img src="img/type3/puritos-caja.png" alt="purito caja por 10" />
@@ -438,7 +335,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                                 <li><i class="icon icon-focal_length"></i><span>📏largo:7.62cm</span></li>
                                 <li><i class="icon icon-aperture"></i><span>peso:4 gr</span></li>
                                 <li><i class="icon icon-exposure_time"></i><span>📏diametro: 1.24</span></li>
-                                <li><i ></i><span>caja de 10 unidades</span></li>
+                                <li><i ></i><span>Caja de 10 unidades</span></li>
                             </ul>
                         </div>
                     </div>
@@ -446,7 +343,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content" >
                         <img src="img/type3/purito_cajax10_cigar brevas.jpg" alt="presentacion caja por 10" />
-                        <h3 class="item__title">Caja por 10<span class="item__date">sobre moldes de cedro</span></h3>
+                        <h3 class="item__title">Caja por 10 unidades<span class="item__date">sobre moldes de cedro</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>purito</span></li>
@@ -479,7 +376,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                                 
                             </ul>
                         </div>
-                        <p>Cigarros purito Handmade en Colombia , santander Piedecuesta</p> 
+                        <p>Cigarros purito Handmade en Colombia , Santander Piedecuesta</p> 
                     </div>
                 </div>
                 <div class="item">
@@ -500,7 +397,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content" >
                         <img src="img/type2/caja2_numero5.png" alt="numero5 carton caja" />
-                        <h3 class="item__title">Numero 5 Presentacion <span class="item__date">de 12 cigar Numero 5</span></h3>
+                        <h3 class="item__title">Numero 5 Presentacion <span class="item__date">de 12 unidades Numero 5</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>Numero 5</span></li>
@@ -589,7 +486,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content">
                         <img src="img/type5/churchill_5.jpg" alt="churchill sobre una caja de madera" />
-                        <h3 class="item__title">churchill <span class="item__date">handmade</span></h3>
+                        <h3 class="item__title">churchill <span class="item__date">HandMade</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>Churchill</span></li>
@@ -604,7 +501,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content">
                         <img src="img/type5/cigar-churchill.JPG" alt="churchill cigar" />
-                        <h3 class="item__title">cigar churchill brevas <span class="item__date">churchill</span></h3>
+                        <h3 class="item__title">cigar churchill Brevas <span class="item__date">Churchill</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>Churchill</span></li>
@@ -619,7 +516,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content" >
                         <img src="img/type5/5.jpg" alt="churchill sobre moldes" />
-                        <h3 class="item__title">Churchill sobre moldes de cedro<span class="item__date">handmade</span></h3>
+                        <h3 class="item__title">Churchill sobre moldes de cedro<span class="item__date">HandMade</span></h3>
                         <div class="item__details">
                             <p class="item__paragrah">
                                 Cigarros elaborados con hojas seleccionadas y maduradas por mas de 4 años y encapados 
@@ -692,7 +589,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content" >
                         <img src="img/type6/cigars6.png" alt="mini exquisito" />
-                        <h3 class="item__title">minisexquisito <span class="item__date">handmade</span></h3>
+                        <h3 class="item__title">minise xquisito <span class="item__date">HandMade</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>mini exquisito</span></li>
@@ -714,7 +611,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content" >
                         <img src="img/type6/mini_exquisito_fique.jpg" alt="mini_exquisito sobre fique" />
-                        <h3 class="item__title">mini_exquisito sobre Fique <span class="item__date">Mini</span></h3>
+                        <h3 class="item__title">mini exquisito sobre Fique <span class="item__date">Mini exquisito</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>mini exquisito</span></li>
@@ -745,14 +642,14 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content">
                         <img src="img/type4/panetela.png" alt="caja panetela por 25 cigars" />
-                        <h3 class="item__title">caja panetela 14 panetelas <span class="item__date">handmade colombia</span></h3>
+                        <h3 class="item__title">caja panetela 14 panetelas <span class="item__date">HandMade Colombia</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>Panetela Medidas:</span></li>
                                 <li><i class="icon icon-focal_length"></i><span> 📏largo:13.97 cm</span></li>
                                 <li><i class="icon icon-aperture"></i><span>📏diametro:0.5 cm</span></li>
                                 <li><i class="icon icon-exposure_time"></i><span>peso:16 gr</span></li>
-                                <li><i ></i><span>14 brevas panetela</span></li>
+                                <li><i ></i><span>14 Brevas panetela</span></li>
                             </ul>
                         </div>
                     </div>
@@ -779,7 +676,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                                 <li><i class="icon icon-focal_length"></i><span> 📏largo:13.97 cm</span></li>
                                 <li><i class="icon icon-aperture"></i><span>📏diametro:0.68 cm</span></li>
                                 <li><i class="icon icon-exposure_time"></i><span>peso:16 gr</span></li>
-                                <li><i ></i><span>14 brevas panetela</span></li>
+                                <li><i ></i><span>14 Brevas Panetela</span></li>
                             </ul>
                         </div>
                     </div>
@@ -794,7 +691,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                                 <li><i class="icon icon-focal_length"></i><span> 📏largo: 13.97 cm</span></li>
                                 <li><i class="icon icon-aperture"></i><span>📏diametro:0.6858 cm</span></li>
                                 <li><i class="icon icon-exposure_time"></i><span>peso:16 gr</span></li>
-                                <li><i ></i><span>brevas panetela</span></li>
+                                <li><i ></i><span>Brevas panetela</span></li>
                             </ul>
                         </div>
                     </div>
@@ -809,7 +706,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                                 <li><i class="icon icon-focal_length"></i><span> 📏largo: 13.97 cm</span></li>
                                 <li><i class="icon icon-aperture"></i><span>📏diametro:0.6</span></li>
                                 <li><i class="icon icon-exposure_time"></i><span>peso:16 gr</span></li>
-                                <li><i ></i><span>brevas panetela</span></li> 
+                                <li><i ></i><span>Brevas Panetela</span></li> 
                             </ul>
                         </div>
                         <p>Cigar Brevas Panetela Handmade in Colombia Santander Piedecuesta.</a></p>
@@ -834,7 +731,7 @@ document.querySelector(".popup .popup-close-btn").addEventListener("click",funct
                 <div class="item">
                     <div class="item__content">
                         <img src="img/type7/torpedo=Caja.png" alt="torpedo caja" />
-                        <h3 class="item__title">Caja de cedro para 20 torpedos<span class="item__date">handmade in Colombia</span></h3>
+                        <h3 class="item__title">Caja de cedro para 20 torpedos<span class="item__date">HandMade in Colombia</span></h3>
                         <div class="item__details">
                             <ul>
                                 <li><i class="icon icon-camera"></i><span>Torpedo</span></li>
@@ -1105,6 +1002,15 @@ font-size: 0.8em;
     
     AOS.init();
 
+    document.querySelector("#letter-container").addEventListener("click",function(){
+        document.querySelector(".popup").classList.add("active");
+        $body.css("color","red");
+    });
+document.querySelector(".popup .popup-close-btn").addEventListener("click",function(){
+        document.querySelector(".popup").classList.remove("active");
+        $body.css("color","white");
+
+    });
 
 
         $("#letter-container h2 a").lettering();
