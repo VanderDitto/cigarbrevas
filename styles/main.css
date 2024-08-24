@@ -325,6 +325,7 @@ animation-range: entry 0% cover 40%;
 
 /* Header */
 .codrops-header {
+	
 	padding: 1em 0;
 	display: -webkit-flex;
 	display: -ms-flexbox;
