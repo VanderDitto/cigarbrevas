@@ -712,6 +712,7 @@ animation-range: entry 0% cover 40%;
 }
 
 .item {
+	
 	padding: 0 5% 5%;
 	opacity: 0;
 	width: 100%;
@@ -825,6 +826,7 @@ animation-range: entry 0% cover 40%;
 	position: relative;
 	z-index: 100;
 	border: 8px solid;
+	border-radius: 9px;
     border-bottom-width: thick;
 }
 
