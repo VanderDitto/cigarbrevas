@@ -75,7 +75,7 @@ display: inline;
 }
 .popup{
 position: relative;
-top:40%;
+top:5rem;
 left:0px;
 width:0%;
 height:0%;
@@ -86,7 +86,7 @@ z-index: 2;
 }
 .popup .content{
 
-	top: 6rem;
+	top: 5rem;
 	position: relative;
 background-color: rgb(233, 233, 233);
 opacity:0;
