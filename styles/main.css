@@ -58,8 +58,14 @@ display: inline;
 width: 400px;
 
 }.figure-content img{
-width: 400px;
-height: auto;
+	width: 400px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    left: 45px;
+    min-width: 345px;
+    border: gold 9px solid;
+    border-radius: 8px;
 }
 .popup{
 position: fixed;
@@ -73,6 +79,8 @@ z-index: 2;
 
 }
 .popup .content{
+	top: 5rem;
+	position: relative;
 background-color: rgb(233, 233, 233);
 opacity:0;
 padding: 30px 20px;
@@ -81,9 +89,9 @@ max-width: 550px;
 margin: 0px auto;
 background: #dbc00f;
 font-size: 19px;
-
+margin: 0 auto;
 scroll-behavior: smooth;
-overflow-y: scroll;
+overflow-x: scroll;
 }
 .popup.active{
 animation: animationpop 1500ms ease-in-out forwards;

@@ -172,7 +172,7 @@
                         <li>
                             
                                 <i class="fa-solid fa-location-dot hvr-pulse">
-                                <a href="https://www.google.com/maps/place/CIGARROS+BREVAS/@6.9901968,-73.0518582,17z/data=!4m8!1m2!2m1!1scigarros+Brevas!3m4!1s0x8e68471d59ae7b15:0x32959d3d663be068!8m2!3d6.9901968!4d-73.0496695"  target="_blank">ubicación</a>
+                                <a href="https://www.google.com/maps/place/CIGARROS+BREVAS/@6.9901968,-73.0518582,17z/data=!4m8!1m2!2m1!1scigarros+Brevas!3m4!1s0x8e68471d59ae7b15:0x32959d3d663be068!8m2!3d6.9901968!4d-73.0496695"  target="_blank">|||</a>
                             </i>
                             </a>
                             </li>
@@ -180,15 +180,14 @@
                             
                                 <i class="fa-brands fa-square-instagram hvr-pulse">
                                 
-                                    <a href="http:"></a>
+                                    <a href="http:">|||</a>
                                 </i>
                             </a>
                         </li>
                         <li>
-                            
                                 <i class="fa-brands fa-square-whatsapp hvr-pulse">
             
-                                <a href="https://wa.me/0573174044417?text=Hola,%20le%20contacto%20desde%20la%20pagina%20web%20cigarros%20Brevas." target="_blank" class="icon-whatsapp">what'sup</a>
+                                <a href="https://wa.me/0573174044417?text=Hola,%20le%20contacto%20desde%20la%20pagina%20web%20cigarros%20Brevas." target="_blank" class="icon-whatsapp">|||</a>
                             </i>
                             </a>
                         </li>
@@ -197,8 +196,6 @@
                 
             </div>
         </section>
-    
-     
     
     <div class="container">
         
@@ -1043,7 +1040,7 @@ animateBlocks();
 
         var options = {
 
-bg:"#dadd2a",
+bg:"#757575",
 target: document.getElementById('nanobar'),
 id: 'mynano'
 };
@@ -1057,8 +1054,9 @@ var nanobar = new Nanobar(options);
             nanobar.go( 30 );
             $( "#tile_id").show( "slow", function() {
     // Animation complete.
-    $logo.hide( 1000 );
+    $logo.hide( 3000 );
 });
+nanobar.go( 95 );
         nanobar.go(100);
                                 });
 
@@ -1184,7 +1182,7 @@ var nanobar = new Nanobar(options);
 					}
 					else if( canOpen ) { // stack is closed
 
-                        $( "#banner_catch" ).fadeOut( "slow", function() {
+                        $( "#banner_catch" ).fadeOut( "fast", function() {
     // Animation complete.
 
                                                     }); 
@@ -1285,7 +1283,7 @@ var nanobar = new Nanobar(options);
 
 	init();
     nanobar.go( 89 );
-
+    
 
 
     });
