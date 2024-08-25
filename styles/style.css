@@ -80,17 +80,12 @@
         z-index: 99999;
         color: #e7cd0a;
         background-color:#0a55000a;
-        font-size: 1em;
+        font-size: 1.3em;
         bottom: 10em;
         top: 4em;
     
     }
 
-.scrollanimation{
-
-    overflow-y: hidden;
-    overflow-x: auto;
-}
 .fitwidth{
 
     width: 450px;
