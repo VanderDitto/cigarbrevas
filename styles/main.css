@@ -52,24 +52,30 @@
 	font-size: 16px;
 	cursor:pointer;
 }
+.minigamos{
+	font-size: 0.7em;
+	width: 50%;
+	margin: 0 auto;
+}
 .figure-content{
+	
 position: relative;
 display: inline;
-width: 400px;
 
-}.figure-content img{
-	width: 400px;
+
+}.figure-content img{   
+	display: inline-block;
+    width: 13vw;
     height: auto;
     margin: 0 auto;
     position: relative;
-    left: 45px;
-    min-width: 345px;
+    min-width: 335px;
     border: gold 9px solid;
     border-radius: 8px;
 }
 .popup{
-position: fixed;
-top:50%;
+position: relative;
+top:40%;
 left:0px;
 width:0%;
 height:0%;
@@ -79,11 +85,12 @@ z-index: 2;
 
 }
 .popup .content{
-	top: 5rem;
+
+	top: 6rem;
 	position: relative;
 background-color: rgb(233, 233, 233);
 opacity:0;
-padding: 30px 20px;
+padding: 30px 30px;
 width: 100%;
 max-width: 550px;
 margin: 0px auto;
@@ -92,6 +99,7 @@ font-size: 19px;
 margin: 0 auto;
 scroll-behavior: smooth;
 overflow-x: scroll;
+border-radius: 9px;
 }
 .popup.active{
 animation: animationpop 1500ms ease-in-out forwards;
@@ -1088,9 +1096,11 @@ cursor: pointer;
 	bottom: 0.2em;
 }
 @media screen and (max-width:467px) {
-.item img {
-   
-}
+
+	.figure-content img {
+		left: -1.6rem
+	}
+
 .icon-llamada li a{
     margin: 0.5em 0.2em;
     font-size: 2em;
