@@ -1080,6 +1080,69 @@ cursor: pointer;
 	}
 }
 
+#vision-footer{
+    display: inline-block;
+}
+.icon-llamada li a{
+    font-size: 0.3em;
+    letter-spacing: 1.3px;
+    
+}
+    .icon-llamada li{
+        margin: 0.5em 0.2em;
+        font-size: 2em;
+        width:55px;
+        cursor: pointer;
+        color:none;
+        background-color: none;
+        padding-left: 4px;
+    }
+    .icon-llamada{
+display: contents;       
+width:55px;
+border:green 4px solid;
+
+background-color: green;
+color:green;
+
+    }
+    .footer-span figure{
+        right: 10px;
+        margin-right: 10px;
+    }
+    .footer-span figure img{
+        position: relative;
+   
+    object-fit: contain;
+    bottom: 0em;
+
+    }
+    .footer-span article{
+
+    overflow-Y: scroll;
+    font-size: 0.8em;
+    display: inline-block;
+    position: relative;
+    width: 44%;
+    color: dimgrey;
+    height: 100px;
+    top: 0.7rem;
+    line-height: 1rem;
+    }
+    .footer-span{
+
+        margin:0px auto;
+        
+        border:10px;
+        border-color:rgb(216, 200, 56);
+        align-items: center;
+        justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(216, 200, 56); 
+
+    }
 @media screen and (max-height: 35em) {
 	.stack-slider {
 		height: 60vh;
@@ -1096,6 +1159,24 @@ cursor: pointer;
 	opacity: 0.8;
 	bottom: 0.2em;
 }
+#entradafacebook{
+	top:23px;
+display:inline-block;
+position: relative;
+}
+#entradaYoutube{
+top:23px;
+display:inline-block;
+position: relative;
+}
+
+@media screen and (max-width:445px){
+
+	#entradaYoutube{
+		display: none;
+	}
+
+}
 @media screen and (max-width:467px) {
 
 	.figure-content img {
@@ -1104,7 +1185,7 @@ cursor: pointer;
 
 .icon-llamada li a{
     margin: 0.5em 0.2em;
-    font-size: 2em;
+    font-size: 0.3em;
     width: 240px;
 }
 .info-wrap{
@@ -1123,12 +1204,65 @@ cursor: pointer;
 
 }
 
-@media  (max-width: 1039px) {
+@media screen and (max-width:1039px) {
+
 	.footer-span article{
 		display: none;
 	}
+	#vision-footer{
+		display: none;
+	}
+	.article-footer{
+		display:none;
+	}
 }
-@media (min-width:1700px){
+
+@media  screen and (min-width:1700px){
+	.info-wrap{
+		font-size: 1em;
+
+	}
+
+}
+
+@media screen and (max-width:532px){
+	.setubicacion {
+		position: relative;
+		font-size: 0.7em;
+		right: 0px;
+		top:33px;
+		width: auto;
+		letter-spacing: 1.3px;
+	}
+	#entradayoutube{
+		display: none;
+	}
+#entradafacebook{
+	display: none;
+}
+
+
+.inforedes:nth-child(1){
+	display: none;
+}
+.inforedes:nth-child(2){
+	display: none;
+}
+}
+
+@media screen and (max-width:642px){
+	.setubicacion {
+		position: relative;
+		font-size: 0.7em;
+		right: 0px;
+		top:33px;
+		width: auto;
+		letter-spacing: 1.3px;
+	}
+
+}
+
+@media  screen and (min-width:1700px){
 	.info-wrap{
 		font-size: 1em;
 
