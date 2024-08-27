@@ -1160,11 +1160,12 @@ color:green;
 	bottom: 0.2em;
 }
 #entradafacebook{
-	top:23px;
-display:inline-block;
-position: relative;
-width: auto;
-height: 34px;
+	top: 16px;
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: 34px;
+    margin: 5px;
 }
 #entradaYoutube{
 top:23px;

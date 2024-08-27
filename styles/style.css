@@ -57,9 +57,10 @@
 
     position: absolute;
     font-size: 0.7em;
-    right: 10px;
+    right: 39px;
     width: auto;
     letter-spacing: 1.3px;
+    margin: 0 auto;
 
 }
     #section-wrapper{
