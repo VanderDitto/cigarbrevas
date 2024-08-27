@@ -1180,7 +1180,7 @@ position: relative;
 @media screen and (max-width:467px) {
 
 	.figure-content img {
-		left: -1.6rem
+		left: -1.6rem;
 	}
 
 .icon-llamada li a{
