@@ -20,17 +20,17 @@
     }
     
     ::-webkit-scrollbar-track-piece{
-        width: 7px;
+        scrollbar-width: thin;
     }
 
     ::-webkit-scrollbar{
-        width: 7PX;
+        
         scrollbar-width: thin;
 
     }
     
     ::-webkit-scrollbar-track{
-        width: 7px;
+        
         background: #ead818;
         cursor:pointer;
     }
@@ -40,7 +40,7 @@
     ::-webkit-scrollbar-thumb{
 
     background:  #0a5500;
-    width: 7px;
+    
     border-radius: 10px;
     cursor: hand;
     }
