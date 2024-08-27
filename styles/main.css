@@ -1089,7 +1089,7 @@ cursor: pointer;
     
 }
     .icon-llamada li{
-        margin: 0.5em 0.2em;
+        margin: 0px auto;
         font-size: 2em;
         width:55px;
         cursor: pointer;
@@ -1163,12 +1163,33 @@ color:green;
 	top:23px;
 display:inline-block;
 position: relative;
+width: auto;
+height: 34px;
 }
 #entradaYoutube{
 top:23px;
 display:inline-block;
 position: relative;
+width: auto;
+height: 34px;
+
 }
+
+@media screen and (max-width:405px){
+
+	#llamar{
+display: none;
+	}
+.setubicacion{
+
+	left: 20px;
+        top: 4px;
+        width: auto;
+        letter-spacing: 1.3px;
+    }
+}
+
+
 
 @media screen and (max-width:445px){
 
@@ -1251,6 +1272,7 @@ position: relative;
 }
 
 @media screen and (max-width:642px){
+
 	.setubicacion {
 		position: relative;
 		font-size: 0.7em;
