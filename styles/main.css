@@ -1187,7 +1187,10 @@ height: 34px;
 		position: relative;
 	}
 	#llamar{
-display: none;
+		display: inline-block;
+        position: relative;
+        top: 26px;
+        width: 22px;
 	}
 .setubicacion{
 
